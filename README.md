@@ -11,18 +11,18 @@ The ID3 algorithm to build a decision tree mainly consists of using a calculated
 This project builds two trees using the huerstics mentioned above, runs tests against the trees to produce the accurac, and implements post-pruning to increase the accuracy.  
 
 Summary of Tasks:
-_ Implement the decision tree learning algorithm. As discussed in class, the main
+- Implement the decision tree learning algorithm. As discussed in class, the main
 step in decision tree learning is choosing the next attribute to split on. 
--Implement the following two heuristics for selecting the next attribute.
+- Implement the following two heuristics for selecting the next attribute.
 1. Information gain heuristic.
 2. Variance impurity heuristic.
 - Output the accuracies on the test set for decision trees constructed using the
 two heuristics as well as the accuracies for their post-pruned versions for the given
 values of L and K. If to-print equals yes, it should print the decision tree in the format
 described above to the standard output.
-_ Report the accuracy on the test set for decision trees constructed using the two
+- Report the accuracy on the test set for decision trees constructed using the two
 heuristics mentioned above.
-_ Choose 10 suitable values for L and K (not 10 values for each, just 10
+- Choose 10 suitable values for L and K (not 10 values for each, just 10
 combinations). For each of them, report the accuracies for the post-pruned decision
 trees constructed using the two heuristics.
 
