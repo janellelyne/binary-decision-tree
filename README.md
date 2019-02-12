@@ -14,8 +14,8 @@ Summary of Tasks:
 - Implement the decision tree learning algorithm. As discussed in class, the main
 step in decision tree learning is choosing the next attribute to split on. 
 - Implement the following two heuristics for selecting the next attribute.
-1. Information gain heuristic.
-2. Variance impurity heuristic.
+  1. Information gain heuristic.
+  2. Variance impurity heuristic.
 - Output the accuracies on the test set for decision trees constructed using the
 two heuristics as well as the accuracies for their post-pruned versions for the given
 values of L and K. If to-print equals yes, it should print the decision tree in the format
