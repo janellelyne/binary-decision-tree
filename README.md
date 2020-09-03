@@ -1,3 +1,5 @@
+Project Scope
+
 This project is a Python implementation of a binary decision tree from scratch.
 
 The ID3 algorithm to build a decision tree mainly consists of using a calculated hueristic to split the data at each node in the tree. For this project two hueristics were used:
